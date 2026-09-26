@@ -1,4 +1,4 @@
-# ECS172 Music Recommendation Project
+# Music Recommendation Project
 
 ## Full Run Commands
 
