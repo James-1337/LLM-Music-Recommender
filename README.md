@@ -6,7 +6,6 @@ Strict 50+ songs and 50%+ lyrics coverage:
 
 ```cmd
 F:
-cd \ancserProject\ECS172Music
 python .\recommandation.py --lyrics-csv .\data\spotify_millsongdata.csv --playlist-csv .\dataFiltered\spotify_playlist_50percent_50item.csv --max-playlists 0 --max-eval-cases 0 --min-playlist-len 20 --holdout-k 10
 ```
 
@@ -14,7 +13,6 @@ python .\recommandation.py --lyrics-csv .\data\spotify_millsongdata.csv --playli
 
 ```cmd
 F:
-cd \ancserProject\ECS172Music
 python .\recommandation.py --lyrics-csv .\data\spotify_millsongdata.csv --playlist-csv .\dataFiltered\spotify_playlist_50item.csv --max-playlists 0 --max-eval-cases 0 --min-playlist-len 20 --holdout-k 10
 ```
 
@@ -22,7 +20,6 @@ python .\recommandation.py --lyrics-csv .\data\spotify_millsongdata.csv --playli
 
 ```cmd
 F:
-cd \ancserProject\ECS172Music
 python .\recommandation.py --lyrics-csv .\data\spotify_millsongdata.csv --playlist-csv .\dataFiltered\spotify_playlist_50percent.csv --max-playlists 0 --max-eval-cases 0 --min-playlist-len 20 --holdout-k 10
 ```
 
